@@ -1,0 +1,42 @@
+# ========================
+# PYTHON
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+*.egg-info/
+
+# ========================
+# NODE / FRONTEND
+# ========================
+node_modules/
+dist/
+build/
+.vite/
+
+# ========================
+# SENSITIVE / SECRETS
+# ========================
+serviceAccountKey.json
+firebase_config.json
+*.json.bak
+
+# ========================
+# UPLOADS (user files)
+# ========================
+backend/uploads/
+
+# ========================
+# SYSTEM FILES
+# ========================
+.DS_Store
+Thumbs.db
+*.log
+
+# ========================
+# IDE
+# ========================
+.vscode/
+.idea/
